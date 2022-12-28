@@ -18,6 +18,7 @@ html {
 }
 
 nav {
+    position: fixed;
     display: flex;
     padding: 1% 6% 0;
     justify-content: space-between;
@@ -30,14 +31,10 @@ nav {
 
 
 
-nav,
-nav .fa {
-    position: fixed;
-}
 
 nav img {
     width: 150px;
-
+    
 }
 
 nav .fa {
@@ -490,8 +487,8 @@ nav .fa {
 
     nav .nav-link .fa-times {
         position: absolute;
-        right: 10px;
-        top: 10px;
+        right: 20px;
+        top: 8px;
     }
 
     nav .fa-bars {
@@ -501,7 +498,7 @@ nav .fa {
     }
 
     .nav-link ul {
-        padding: 30px;
+        padding: 45px 30px 0;
     }   
 
     .cta h1 {
